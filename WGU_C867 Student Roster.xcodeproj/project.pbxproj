@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38D244972ABD67DD00AFD0F5 /* student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38D244952ABD67DD00AFD0F5 /* student.cpp */; };
+		38D2449A2ABD67EF00AFD0F5 /* roster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38D244982ABD67EF00AFD0F5 /* roster.cpp */; };
 		38EA25402ABD5E41000D1D71 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38EA253F2ABD5E41000D1D71 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		38D244942ABD67C300AFD0F5 /* degree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = degree.h; sourceTree = "<group>"; };
+		38D244952ABD67DD00AFD0F5 /* student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = student.cpp; sourceTree = "<group>"; };
+		38D244982ABD67EF00AFD0F5 /* roster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = roster.cpp; sourceTree = "<group>"; };
+		38D2449B2ABE0ABC00AFD0F5 /* student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = student.h; sourceTree = "<group>"; };
+		38D2449C2ABE0AEF00AFD0F5 /* roster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = roster.h; sourceTree = "<group>"; };
 		38EA253C2ABD5E41000D1D71 /* WGU_C867 Student Roster */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "WGU_C867 Student Roster"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38EA253F2ABD5E41000D1D71 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				38EA253F2ABD5E41000D1D71 /* main.cpp */,
+				38D244942ABD67C300AFD0F5 /* degree.h */,
+				38D2449C2ABE0AEF00AFD0F5 /* roster.h */,
+				38D244982ABD67EF00AFD0F5 /* roster.cpp */,
+				38D2449B2ABE0ABC00AFD0F5 /* student.h */,
+				38D244952ABD67DD00AFD0F5 /* student.cpp */,
 			);
 			path = "WGU_C867 Student Roster";
 			sourceTree = "<group>";
@@ -120,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				38EA25402ABD5E41000D1D71 /* main.cpp in Sources */,
+				38D2449A2ABD67EF00AFD0F5 /* roster.cpp in Sources */,
+				38D244972ABD67DD00AFD0F5 /* student.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
